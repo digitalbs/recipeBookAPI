@@ -1,0 +1,38 @@
+{
+  "name": "recipebook",
+  "version": "0.1.0",
+  "description": "A book for recipes",
+  "main": "server.js",
+  "scripts": {
+    "test": "lab -r console test",
+    "start": "nodemon ./server.js"
+  },
+  "keywords": [
+    "API"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbs/recipebook"
+  },
+  "author": "Brian Schneider",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "bluebird": "^3.4.1",
+    "boom": "^3.2.2",
+    "glob": "^7.0.5",
+    "hapi": "^14.2.0",
+    "hapi-auth-jwt": "^4.0.0",
+    "hapi-swagger": "^7.6.0",
+    "inert": "^4.1.0",
+    "joi": "^9.0.4",
+    "mongoose": "^4.8.3",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "code": "^4.0.0",
+    "lab": "^12.1.0",
+    "sinon": "^1.17.7",
+    "nodemon": "^1.11.0"
+  }
+}
