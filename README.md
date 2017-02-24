@@ -6,7 +6,7 @@ A book for recipes
 ## Getting Started
 
 ## API Documentation
-This API uses Swagger for it's API documentation. To view the API docs, navigate to this URL in your browsers: http://localhost:3000
+This API uses Swagger for it's API documentation. To view the API docs, navigate to this URL in your browsers: http://localhost:3000/api/documentation
 
 
 ## Contributing
